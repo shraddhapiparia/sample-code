@@ -11,3 +11,5 @@ Requirements:
 6. User is charged on minute basis to calculate the fare.
 7. The Parking lot consists of various parking space types: Large, Regular, Compact, Handicapped to accomodate Bus, Car and Motorcycle respectively.
 8. This expensive parking lot charges $2.5, $1.75, $0.75 and $1.5 per minute for Bus, Car, Motorcylce and Handicapped respectively.
+
+This project demostrates the concept of enum, pointers, struct, interfaces (abstract class), inheritance and singleton class.
