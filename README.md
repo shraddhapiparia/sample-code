@@ -19,10 +19,10 @@ Project can be compiled in command prompt using:
 
  make all
 
-Program can be executed using
+Program can be executed using:
 
  ./parkinglot
 
-Build can be cleaned using
+Build can be cleaned using:
 
  make clean
