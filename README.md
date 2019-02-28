@@ -10,6 +10,15 @@ Requirements:
 5. User is not allowed to enter if parking is full.
 6. User is charged on minute basis to calculate the fare.
 7. The Parking lot consists of various parking space types: Large, Regular, Compact, Handicapped to accomodate Bus, Car and Motorcycle respectively.
-8. This expensive parking lot charges $2.5, $1.75, $0.75 and $1.5 per minute for Bus, Car, Motorcylce and Handicapped respectively.
+8. This expensive parking lot charges $2.5, $1.75, $0.75 and $1.5 per minute for Bus, Car, Motorcycle and Handicapped respectively.
 
 This project demostrates the concept of enum, pointers, abstraction , inheritance and singleton class (ParkingLot) as shown in Class diagram (https://www.dropbox.com/s/6rm9rkogv0czgwo/ParkingLotClassDiagram.jpeg?dl=0).
+
+
+Project can be compiled in command prompt using:
+
+make all
+
+Build can be cleaned using
+
+make clean
