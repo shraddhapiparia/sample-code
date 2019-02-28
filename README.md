@@ -26,3 +26,5 @@ Program can be executed using:
 Build can be cleaned using:
 
  make clean
+
+Tests are incomplete as of now.
