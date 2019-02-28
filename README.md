@@ -17,8 +17,12 @@ This project demostrates the concept of enum, pointers, abstraction , inheritanc
 
 Project can be compiled in command prompt using:
 
-make all
+# make all
+
+Program can be executed using
+
+# ./parkinglot
 
 Build can be cleaned using
 
-make clean
+# make clean
