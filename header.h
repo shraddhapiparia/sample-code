@@ -13,40 +13,28 @@ Description: Sets up parking lot
 #include <vector>
 #include <chrono>
 #include <map>
+#include <ctime>
+#include <typeinfo>
 
 using namespace std;
 
 const int ROW_SIZE = 6, COL_SIZE = 4;
 
-enum VehicleType{Motorcycle, Car, Bus, H};
+enum VehicleType{MOTORCYCLE=1, CAR, BUS, HANDICAPPED};
 
-enum ParkingSpaceType{Large, Compact, Handicapped, Regular};
+enum ParkingSpaceType{COMPACT, REGULAR, LARGE, HANDICAP};
 typedef ParkingSpaceType* ParkingSpaceArrayPtr;
 
-enum Status{A, U};
+enum Status{AVL, UNAVL};
 typedef Status* StatusArrayPtr;
-
+/*
 struct Ticket
 {
 	int id;
 	string lic_num;
-	std::chrono::system_clock::time_point start_time = std::chrono::system_clock::now();
-	string type;
-};
-
-#endif
-/*
-class ParkingBoard{};
-class Vehicle{};
-class ParkingTicket{};
-class ParkingLot{};
-/*	public:
-	StatusArrayPtr initializeBoard();
-	ParkingSpaceArrayPtr initializeBoardType();
-	int isAvailable(string);
-	StatusArrayPtr reserveParkingSpace(StatusArrayPtr *board, int);
-	StatusArrayPtr releaseParkingSpace(StatusArrayPtr *board, int);
-	void displayBoard(StatusArrayPtr *board);
-	void findVehicle(StatusArrayPtr *board, int);
+	std::chrono::system_clock::time_point start_time;
+	//time_point start_time;
+	int type;
 };
 */
+#endif
